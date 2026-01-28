@@ -1,0 +1,1 @@
+This project should compute embeddings of my emails (using IMAP and some embedding API), and *seriate* them, as described in this post: https://www.lesswrong.com/posts/u2ww8yKp9xAB6qzcr/if-you-re-not-sure-how-to-sort-a-list-or-grid-seriate-it

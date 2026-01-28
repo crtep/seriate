@@ -1,0 +1,41 @@
+[
+  {
+    "namespace": "seriateColumn",
+    "functions": [
+      {
+        "name": "addColumn",
+        "type": "function",
+        "async": true,
+        "description": "Register the Seriate rank column in the thread pane.",
+        "parameters": []
+      },
+      {
+        "name": "removeColumn",
+        "type": "function",
+        "async": true,
+        "description": "Unregister the Seriate rank column.",
+        "parameters": []
+      },
+      {
+        "name": "setRanks",
+        "type": "function",
+        "async": true,
+        "description": "Set seriation ranks for messages. Keys are Message-ID header values, values are rank numbers.",
+        "parameters": [
+          {
+            "name": "ranks",
+            "type": "object",
+            "additionalProperties": { "type": "integer" }
+          }
+        ]
+      },
+      {
+        "name": "clearRanks",
+        "type": "function",
+        "async": true,
+        "description": "Clear all seriation ranks and refresh the column.",
+        "parameters": []
+      }
+    ]
+  }
+]
