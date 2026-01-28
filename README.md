@@ -1,4 +1,4 @@
-Is reading your email slow? Does it not involve enough ML? Seriate gets text embeddings for emails via the OpenAI API and seriates them: organizes them in a linear order that keeps similar emails together. If you want more dimensions, it can also do a 2D view with UMAP.
+Is reading your email slow? Does it not involve enough ML? Seriate gets text embeddings for emails via the OpenAI API and seriates them: organizes them in a linear order that keeps similar emails together. If you want more dimensions, it can also do a 2D view with UMAP. I vibecoded it in a couple hours.
 
 Anecdotally, this makes reading long backlogs of mostly-junk emails faster and more fun!
 
